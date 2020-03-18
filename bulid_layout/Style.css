@@ -1,3 +1,65 @@
-﻿body
+﻿@charset "UTF-8";
+html {
+    font-size: 100%;
+}
+body
 {
+}
+.container {
+    display: flex;
+    /*左順*/
+    flex-direction: row-reverse;
+}
+.item{
+    background-color: #0bd;
+    color: #fff;
+    margin: 10px;
+    padding: 10px;
+}
+.container2 {
+    display: flex;
+    /*折り返し*/
+    flex-wrap: wrap;
+}
+.item2 {
+    background-color: #ff6a00;
+    color: #fff;
+    margin: 10px;
+    padding: 10px;
+}
+.container3 {
+    display: flex;
+    /*中央揃え*/
+    justify-content: center;
+}
+.item3 {
+    background-color: #4cff00;
+    color: #fff;
+    margin: 10px;
+    padding: 10px;
+}
+.container4 {
+    display: flex;
+    /*垂直方向揃え*/
+    align-items: center;
+    height: 100vh;
+}
+.item4 {
+    background-color: #b200ff;
+    color: #fff;
+    margin: 10px;
+    padding: 10px;
+}
+.container5 {
+    display: flex;
+    /*複数行揃え*/
+    flex-wrap: wrap;
+    align-content: space-between;
+    height: 200px;
+}
+.item5 {
+    background-color: #ff006e;
+    color: #fff;
+    margin: 10px;
+    padding: 10px;
 }
